@@ -1,0 +1,6 @@
+framework module Pods_SwipNavHide {
+  umbrella header "Pods-SwipNavHide-umbrella.h"
+
+  export *
+  module * { export * }
+}

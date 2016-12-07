@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC33B96A1DF7F1BF006DEEEE /* FirstMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33B9691DF7F1BF006DEEEE /* FirstMethodViewController.m */; };
+		ACD3874B1DF5664A005DC4DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3874A1DF5664A005DC4DA /* main.m */; };
+		ACD3874E1DF5664A005DC4DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3874D1DF5664A005DC4DA /* AppDelegate.m */; };
+		ACD387511DF5664A005DC4DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387501DF5664A005DC4DA /* ViewController.m */; };
+		ACD387541DF5664A005DC4DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD387521DF5664A005DC4DA /* Main.storyboard */; };
+		ACD387561DF5664A005DC4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD387551DF5664A005DC4DA /* Assets.xcassets */; };
+		ACD387591DF5664A005DC4DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD387571DF5664A005DC4DA /* LaunchScreen.storyboard */; };
+		ACD387641DF5664A005DC4DA /* SwipNavHideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387631DF5664A005DC4DA /* SwipNavHideTests.m */; };
+		ACD3876F1DF5664A005DC4DA /* SwipNavHideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3876E1DF5664A005DC4DA /* SwipNavHideUITests.m */; };
+		ACD3877E1DF5687D005DC4DA /* UIColor+FlatUI.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3877D1DF5687D005DC4DA /* UIColor+FlatUI.m */; };
+		ACD387811DF56DAC005DC4DA /* HidePageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387801DF56DAC005DC4DA /* HidePageScrollViewController.m */; };
+		ACD3878B1DF57A5F005DC4DA /* BHInfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387841DF57A5F005DC4DA /* BHInfiniteScrollView.m */; };
+		ACD3878C1DF57A5F005DC4DA /* BHInfiniteScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387861DF57A5F005DC4DA /* BHInfiniteScrollViewCell.m */; };
+		ACD3878D1DF57A5F005DC4DA /* BHInfiniteScrollViewTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387881DF57A5F005DC4DA /* BHInfiniteScrollViewTitleView.m */; };
+		ACD3878E1DF57A5F005DC4DA /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3878A1DF57A5F005DC4DA /* FXPageControl.m */; };
+		ACD387AD1DF57ABA005DC4DA /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387911DF57ABA005DC4DA /* NSData+ImageContentType.m */; };
+		ACD387AE1DF57ABA005DC4DA /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387931DF57ABA005DC4DA /* SDImageCache.m */; };
+		ACD387AF1DF57ABA005DC4DA /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387951DF57ABA005DC4DA /* SDWebImageCompat.m */; };
+		ACD387B01DF57ABA005DC4DA /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387971DF57ABA005DC4DA /* SDWebImageDecoder.m */; };
+		ACD387B11DF57ABA005DC4DA /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387991DF57ABA005DC4DA /* SDWebImageDownloader.m */; };
+		ACD387B21DF57ABA005DC4DA /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3879B1DF57ABA005DC4DA /* SDWebImageDownloaderOperation.m */; };
+		ACD387B31DF57ABA005DC4DA /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD3879D1DF57ABA005DC4DA /* SDWebImageManager.m */; };
+		ACD387B41DF57ABA005DC4DA /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387A01DF57ABA005DC4DA /* SDWebImagePrefetcher.m */; };
+		ACD387B51DF57ABA005DC4DA /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387A21DF57ABA005DC4DA /* UIButton+WebCache.m */; };
+		ACD387B61DF57ABA005DC4DA /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387A41DF57ABA005DC4DA /* UIImage+GIF.m */; };
+		ACD387B71DF57ABA005DC4DA /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387A61DF57ABA005DC4DA /* UIImage+MultiFormat.m */; };
+		ACD387B81DF57ABA005DC4DA /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387A81DF57ABA005DC4DA /* UIImageView+HighlightedWebCache.m */; };
+		ACD387B91DF57ABA005DC4DA /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387AA1DF57ABA005DC4DA /* UIImageView+WebCache.m */; };
+		ACD387BA1DF57ABA005DC4DA /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD387AC1DF57ABA005DC4DA /* UIView+WebCacheOperation.m */; };
+		E2EF6D66C093C0194C561192 /* Pods_SwipNavHide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20ABFEA1747EBEFD170774C1 /* Pods_SwipNavHide.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACD387601DF5664A005DC4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD3873E1DF5664A005DC4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD387451DF5664A005DC4DA;
+			remoteInfo = SwipNavHide;
+		};
+		ACD3876B1DF5664A005DC4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACD3873E1DF5664A005DC4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD387451DF5664A005DC4DA;
+			remoteInfo = SwipNavHide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20ABFEA1747EBEFD170774C1 /* Pods_SwipNavHide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipNavHide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636F32E2D8D1725C5289B271 /* Pods-SwipNavHide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipNavHide.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipNavHide/Pods-SwipNavHide.release.xcconfig"; sourceTree = "<group>"; };
+		9D770E1616BB51A72129BD06 /* Pods-SwipNavHide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipNavHide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipNavHide/Pods-SwipNavHide.debug.xcconfig"; sourceTree = "<group>"; };
+		AC33B9681DF7F1BF006DEEEE /* FirstMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstMethodViewController.h; sourceTree = "<group>"; };
+		AC33B9691DF7F1BF006DEEEE /* FirstMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstMethodViewController.m; sourceTree = "<group>"; };
+		ACD118D41DF69523004E73A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ACD387461DF5664A005DC4DA /* SwipNavHide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipNavHide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3874A1DF5664A005DC4DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACD3874C1DF5664A005DC4DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACD3874D1DF5664A005DC4DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACD3874F1DF5664A005DC4DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACD387501DF5664A005DC4DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACD387531DF5664A005DC4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACD387551DF5664A005DC4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACD387581DF5664A005DC4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACD3875A1DF5664A005DC4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD3875F1DF5664A005DC4DA /* SwipNavHideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipNavHideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD387631DF5664A005DC4DA /* SwipNavHideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipNavHideTests.m; sourceTree = "<group>"; };
+		ACD387651DF5664A005DC4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD3876A1DF5664A005DC4DA /* SwipNavHideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipNavHideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3876E1DF5664A005DC4DA /* SwipNavHideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipNavHideUITests.m; sourceTree = "<group>"; };
+		ACD387701DF5664A005DC4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD3877C1DF5687D005DC4DA /* UIColor+FlatUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FlatUI.h"; sourceTree = "<group>"; };
+		ACD3877D1DF5687D005DC4DA /* UIColor+FlatUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FlatUI.m"; sourceTree = "<group>"; };
+		ACD3877F1DF56DAC005DC4DA /* HidePageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HidePageScrollViewController.h; sourceTree = "<group>"; };
+		ACD387801DF56DAC005DC4DA /* HidePageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HidePageScrollViewController.m; sourceTree = "<group>"; };
+		ACD387831DF57A5F005DC4DA /* BHInfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHInfiniteScrollView.h; sourceTree = "<group>"; };
+		ACD387841DF57A5F005DC4DA /* BHInfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHInfiniteScrollView.m; sourceTree = "<group>"; };
+		ACD387851DF57A5F005DC4DA /* BHInfiniteScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHInfiniteScrollViewCell.h; sourceTree = "<group>"; };
+		ACD387861DF57A5F005DC4DA /* BHInfiniteScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHInfiniteScrollViewCell.m; sourceTree = "<group>"; };
+		ACD387871DF57A5F005DC4DA /* BHInfiniteScrollViewTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHInfiniteScrollViewTitleView.h; sourceTree = "<group>"; };
+		ACD387881DF57A5F005DC4DA /* BHInfiniteScrollViewTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHInfiniteScrollViewTitleView.m; sourceTree = "<group>"; };
+		ACD387891DF57A5F005DC4DA /* FXPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXPageControl.h; sourceTree = "<group>"; };
+		ACD3878A1DF57A5F005DC4DA /* FXPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXPageControl.m; sourceTree = "<group>"; };
+		ACD387901DF57ABA005DC4DA /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		ACD387911DF57ABA005DC4DA /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		ACD387921DF57ABA005DC4DA /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		ACD387931DF57ABA005DC4DA /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		ACD387941DF57ABA005DC4DA /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		ACD387951DF57ABA005DC4DA /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		ACD387961DF57ABA005DC4DA /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		ACD387971DF57ABA005DC4DA /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		ACD387981DF57ABA005DC4DA /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		ACD387991DF57ABA005DC4DA /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		ACD3879A1DF57ABA005DC4DA /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		ACD3879B1DF57ABA005DC4DA /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		ACD3879C1DF57ABA005DC4DA /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		ACD3879D1DF57ABA005DC4DA /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		ACD3879E1DF57ABA005DC4DA /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		ACD3879F1DF57ABA005DC4DA /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		ACD387A01DF57ABA005DC4DA /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		ACD387A11DF57ABA005DC4DA /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		ACD387A21DF57ABA005DC4DA /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		ACD387A31DF57ABA005DC4DA /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		ACD387A41DF57ABA005DC4DA /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		ACD387A51DF57ABA005DC4DA /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		ACD387A61DF57ABA005DC4DA /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		ACD387A71DF57ABA005DC4DA /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		ACD387A81DF57ABA005DC4DA /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		ACD387A91DF57ABA005DC4DA /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		ACD387AA1DF57ABA005DC4DA /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		ACD387AB1DF57ABA005DC4DA /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		ACD387AC1DF57ABA005DC4DA /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACD387431DF5664A005DC4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EF6D66C093C0194C561192 /* Pods_SwipNavHide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3875C1DF5664A005DC4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD387671DF5664A005DC4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E673BC02C3418F6BC997E92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20ABFEA1747EBEFD170774C1 /* Pods_SwipNavHide.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		843583740A9E69700531F244 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D770E1616BB51A72129BD06 /* Pods-SwipNavHide.debug.xcconfig */,
+				636F32E2D8D1725C5289B271 /* Pods-SwipNavHide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC33B96B1DF80066006DEEEE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3877C1DF5687D005DC4DA /* UIColor+FlatUI.h */,
+				ACD3877D1DF5687D005DC4DA /* UIColor+FlatUI.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		ACD118C01DF68A0A004E73A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACD387821DF57A48005DC4DA /* ImageScrollView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		ACD3873D1DF5664A005DC4DA = {
+			isa = PBXGroup;
+			children = (
+				ACD387481DF5664A005DC4DA /* SwipNavHide */,
+				ACD387621DF5664A005DC4DA /* SwipNavHideTests */,
+				ACD3876D1DF5664A005DC4DA /* SwipNavHideUITests */,
+				ACD387471DF5664A005DC4DA /* Products */,
+				843583740A9E69700531F244 /* Pods */,
+				3E673BC02C3418F6BC997E92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACD387471DF5664A005DC4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACD387461DF5664A005DC4DA /* SwipNavHide.app */,
+				ACD3875F1DF5664A005DC4DA /* SwipNavHideTests.xctest */,
+				ACD3876A1DF5664A005DC4DA /* SwipNavHideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACD387481DF5664A005DC4DA /* SwipNavHide */ = {
+			isa = PBXGroup;
+			children = (
+				AC33B96B1DF80066006DEEEE /* Utility */,
+				ACD118C01DF68A0A004E73A2 /* Views */,
+				ACD3874F1DF5664A005DC4DA /* ViewController.h */,
+				ACD387501DF5664A005DC4DA /* ViewController.m */,
+				ACD3877F1DF56DAC005DC4DA /* HidePageScrollViewController.h */,
+				ACD387801DF56DAC005DC4DA /* HidePageScrollViewController.m */,
+				AC33B9681DF7F1BF006DEEEE /* FirstMethodViewController.h */,
+				AC33B9691DF7F1BF006DEEEE /* FirstMethodViewController.m */,
+				ACD387521DF5664A005DC4DA /* Main.storyboard */,
+				ACD387551DF5664A005DC4DA /* Assets.xcassets */,
+				ACD3875A1DF5664A005DC4DA /* Info.plist */,
+				ACD118D41DF69523004E73A2 /* PrefixHeader.pch */,
+				ACD387491DF5664A005DC4DA /* Supporting Files */,
+			);
+			path = SwipNavHide;
+			sourceTree = "<group>";
+		};
+		ACD387491DF5664A005DC4DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACD387571DF5664A005DC4DA /* LaunchScreen.storyboard */,
+				ACD3874C1DF5664A005DC4DA /* AppDelegate.h */,
+				ACD3874D1DF5664A005DC4DA /* AppDelegate.m */,
+				ACD3874A1DF5664A005DC4DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACD387621DF5664A005DC4DA /* SwipNavHideTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD387631DF5664A005DC4DA /* SwipNavHideTests.m */,
+				ACD387651DF5664A005DC4DA /* Info.plist */,
+			);
+			path = SwipNavHideTests;
+			sourceTree = "<group>";
+		};
+		ACD3876D1DF5664A005DC4DA /* SwipNavHideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3876E1DF5664A005DC4DA /* SwipNavHideUITests.m */,
+				ACD387701DF5664A005DC4DA /* Info.plist */,
+			);
+			path = SwipNavHideUITests;
+			sourceTree = "<group>";
+		};
+		ACD387821DF57A48005DC4DA /* ImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3878F1DF57AA4005DC4DA /* WebImage */,
+				ACD387831DF57A5F005DC4DA /* BHInfiniteScrollView.h */,
+				ACD387841DF57A5F005DC4DA /* BHInfiniteScrollView.m */,
+				ACD387851DF57A5F005DC4DA /* BHInfiniteScrollViewCell.h */,
+				ACD387861DF57A5F005DC4DA /* BHInfiniteScrollViewCell.m */,
+				ACD387871DF57A5F005DC4DA /* BHInfiniteScrollViewTitleView.h */,
+				ACD387881DF57A5F005DC4DA /* BHInfiniteScrollViewTitleView.m */,
+				ACD387891DF57A5F005DC4DA /* FXPageControl.h */,
+				ACD3878A1DF57A5F005DC4DA /* FXPageControl.m */,
+			);
+			name = ImageScrollView;
+			sourceTree = "<group>";
+		};
+		ACD3878F1DF57AA4005DC4DA /* WebImage */ = {
+			isa = PBXGroup;
+			children = (
+				ACD387901DF57ABA005DC4DA /* NSData+ImageContentType.h */,
+				ACD387911DF57ABA005DC4DA /* NSData+ImageContentType.m */,
+				ACD387921DF57ABA005DC4DA /* SDImageCache.h */,
+				ACD387931DF57ABA005DC4DA /* SDImageCache.m */,
+				ACD387941DF57ABA005DC4DA /* SDWebImageCompat.h */,
+				ACD387951DF57ABA005DC4DA /* SDWebImageCompat.m */,
+				ACD387961DF57ABA005DC4DA /* SDWebImageDecoder.h */,
+				ACD387971DF57ABA005DC4DA /* SDWebImageDecoder.m */,
+				ACD387981DF57ABA005DC4DA /* SDWebImageDownloader.h */,
+				ACD387991DF57ABA005DC4DA /* SDWebImageDownloader.m */,
+				ACD3879A1DF57ABA005DC4DA /* SDWebImageDownloaderOperation.h */,
+				ACD3879B1DF57ABA005DC4DA /* SDWebImageDownloaderOperation.m */,
+				ACD3879C1DF57ABA005DC4DA /* SDWebImageManager.h */,
+				ACD3879D1DF57ABA005DC4DA /* SDWebImageManager.m */,
+				ACD3879E1DF57ABA005DC4DA /* SDWebImageOperation.h */,
+				ACD3879F1DF57ABA005DC4DA /* SDWebImagePrefetcher.h */,
+				ACD387A01DF57ABA005DC4DA /* SDWebImagePrefetcher.m */,
+				ACD387A11DF57ABA005DC4DA /* UIButton+WebCache.h */,
+				ACD387A21DF57ABA005DC4DA /* UIButton+WebCache.m */,
+				ACD387A31DF57ABA005DC4DA /* UIImage+GIF.h */,
+				ACD387A41DF57ABA005DC4DA /* UIImage+GIF.m */,
+				ACD387A51DF57ABA005DC4DA /* UIImage+MultiFormat.h */,
+				ACD387A61DF57ABA005DC4DA /* UIImage+MultiFormat.m */,
+				ACD387A71DF57ABA005DC4DA /* UIImageView+HighlightedWebCache.h */,
+				ACD387A81DF57ABA005DC4DA /* UIImageView+HighlightedWebCache.m */,
+				ACD387A91DF57ABA005DC4DA /* UIImageView+WebCache.h */,
+				ACD387AA1DF57ABA005DC4DA /* UIImageView+WebCache.m */,
+				ACD387AB1DF57ABA005DC4DA /* UIView+WebCacheOperation.h */,
+				ACD387AC1DF57ABA005DC4DA /* UIView+WebCacheOperation.m */,
+			);
+			name = WebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACD387451DF5664A005DC4DA /* SwipNavHide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD387731DF5664A005DC4DA /* Build configuration list for PBXNativeTarget "SwipNavHide" */;
+			buildPhases = (
+				B1F66E8D66B48492C568088C /* [CP] Check Pods Manifest.lock */,
+				ACD387421DF5664A005DC4DA /* Sources */,
+				ACD387431DF5664A005DC4DA /* Frameworks */,
+				ACD387441DF5664A005DC4DA /* Resources */,
+				967A86188FB21E4AB8EE423C /* [CP] Embed Pods Frameworks */,
+				EAD245671BD83B269C58D0E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipNavHide;
+			productName = SwipNavHide;
+			productReference = ACD387461DF5664A005DC4DA /* SwipNavHide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACD3875E1DF5664A005DC4DA /* SwipNavHideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD387761DF5664A005DC4DA /* Build configuration list for PBXNativeTarget "SwipNavHideTests" */;
+			buildPhases = (
+				ACD3875B1DF5664A005DC4DA /* Sources */,
+				ACD3875C1DF5664A005DC4DA /* Frameworks */,
+				ACD3875D1DF5664A005DC4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD387611DF5664A005DC4DA /* PBXTargetDependency */,
+			);
+			name = SwipNavHideTests;
+			productName = SwipNavHideTests;
+			productReference = ACD3875F1DF5664A005DC4DA /* SwipNavHideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACD387691DF5664A005DC4DA /* SwipNavHideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACD387791DF5664A005DC4DA /* Build configuration list for PBXNativeTarget "SwipNavHideUITests" */;
+			buildPhases = (
+				ACD387661DF5664A005DC4DA /* Sources */,
+				ACD387671DF5664A005DC4DA /* Frameworks */,
+				ACD387681DF5664A005DC4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACD3876C1DF5664A005DC4DA /* PBXTargetDependency */,
+			);
+			name = SwipNavHideUITests;
+			productName = SwipNavHideUITests;
+			productReference = ACD3876A1DF5664A005DC4DA /* SwipNavHideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACD3873E1DF5664A005DC4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Lunar;
+				TargetAttributes = {
+					ACD387451DF5664A005DC4DA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A6NUFMSJYD;
+						ProvisioningStyle = Automatic;
+					};
+					ACD3875E1DF5664A005DC4DA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACD387451DF5664A005DC4DA;
+					};
+					ACD387691DF5664A005DC4DA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ACD387451DF5664A005DC4DA;
+					};
+				};
+			};
+			buildConfigurationList = ACD387411DF5664A005DC4DA /* Build configuration list for PBXProject "SwipNavHide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACD3873D1DF5664A005DC4DA;
+			productRefGroup = ACD387471DF5664A005DC4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD387451DF5664A005DC4DA /* SwipNavHide */,
+				ACD3875E1DF5664A005DC4DA /* SwipNavHideTests */,
+				ACD387691DF5664A005DC4DA /* SwipNavHideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACD387441DF5664A005DC4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD387591DF5664A005DC4DA /* LaunchScreen.storyboard in Resources */,
+				ACD387561DF5664A005DC4DA /* Assets.xcassets in Resources */,
+				ACD387541DF5664A005DC4DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3875D1DF5664A005DC4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD387681DF5664A005DC4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		967A86188FB21E4AB8EE423C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipNavHide/Pods-SwipNavHide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1F66E8D66B48492C568088C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD245671BD83B269C58D0E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipNavHide/Pods-SwipNavHide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACD387421DF5664A005DC4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD387B91DF57ABA005DC4DA /* UIImageView+WebCache.m in Sources */,
+				AC33B96A1DF7F1BF006DEEEE /* FirstMethodViewController.m in Sources */,
+				ACD387B01DF57ABA005DC4DA /* SDWebImageDecoder.m in Sources */,
+				ACD387B31DF57ABA005DC4DA /* SDWebImageManager.m in Sources */,
+				ACD387AD1DF57ABA005DC4DA /* NSData+ImageContentType.m in Sources */,
+				ACD387AF1DF57ABA005DC4DA /* SDWebImageCompat.m in Sources */,
+				ACD3878C1DF57A5F005DC4DA /* BHInfiniteScrollViewCell.m in Sources */,
+				ACD3878D1DF57A5F005DC4DA /* BHInfiniteScrollViewTitleView.m in Sources */,
+				ACD387BA1DF57ABA005DC4DA /* UIView+WebCacheOperation.m in Sources */,
+				ACD3878E1DF57A5F005DC4DA /* FXPageControl.m in Sources */,
+				ACD387B51DF57ABA005DC4DA /* UIButton+WebCache.m in Sources */,
+				ACD387B41DF57ABA005DC4DA /* SDWebImagePrefetcher.m in Sources */,
+				ACD387B21DF57ABA005DC4DA /* SDWebImageDownloaderOperation.m in Sources */,
+				ACD387811DF56DAC005DC4DA /* HidePageScrollViewController.m in Sources */,
+				ACD3877E1DF5687D005DC4DA /* UIColor+FlatUI.m in Sources */,
+				ACD387B81DF57ABA005DC4DA /* UIImageView+HighlightedWebCache.m in Sources */,
+				ACD387B71DF57ABA005DC4DA /* UIImage+MultiFormat.m in Sources */,
+				ACD387511DF5664A005DC4DA /* ViewController.m in Sources */,
+				ACD387AE1DF57ABA005DC4DA /* SDImageCache.m in Sources */,
+				ACD3878B1DF57A5F005DC4DA /* BHInfiniteScrollView.m in Sources */,
+				ACD3874E1DF5664A005DC4DA /* AppDelegate.m in Sources */,
+				ACD387B61DF57ABA005DC4DA /* UIImage+GIF.m in Sources */,
+				ACD387B11DF57ABA005DC4DA /* SDWebImageDownloader.m in Sources */,
+				ACD3874B1DF5664A005DC4DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD3875B1DF5664A005DC4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD387641DF5664A005DC4DA /* SwipNavHideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACD387661DF5664A005DC4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD3876F1DF5664A005DC4DA /* SwipNavHideUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACD387611DF5664A005DC4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD387451DF5664A005DC4DA /* SwipNavHide */;
+			targetProxy = ACD387601DF5664A005DC4DA /* PBXContainerItemProxy */;
+		};
+		ACD3876C1DF5664A005DC4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACD387451DF5664A005DC4DA /* SwipNavHide */;
+			targetProxy = ACD3876B1DF5664A005DC4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACD387521DF5664A005DC4DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD387531DF5664A005DC4DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACD387571DF5664A005DC4DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACD387581DF5664A005DC4DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACD387711DF5664A005DC4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACD387721DF5664A005DC4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACD387741DF5664A005DC4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D770E1616BB51A72129BD06 /* Pods-SwipNavHide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6NUFMSJYD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SwipNavHide/PrefixHeader.pch";
+				INFOPLIST_FILE = SwipNavHide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SwipNavHide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACD387751DF5664A005DC4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636F32E2D8D1725C5289B271 /* Pods-SwipNavHide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6NUFMSJYD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SwipNavHide/PrefixHeader.pch";
+				INFOPLIST_FILE = SwipNavHide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SwipNavHide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACD387771DF5664A005DC4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipNavHideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SwipNavHideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipNavHide.app/SwipNavHide";
+			};
+			name = Debug;
+		};
+		ACD387781DF5664A005DC4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipNavHideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SwipNavHideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipNavHide.app/SwipNavHide";
+			};
+			name = Release;
+		};
+		ACD3877A1DF5664A005DC4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipNavHideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SwipNavHideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipNavHide;
+			};
+			name = Debug;
+		};
+		ACD3877B1DF5664A005DC4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipNavHideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SwipNavHideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipNavHide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACD387411DF5664A005DC4DA /* Build configuration list for PBXProject "SwipNavHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD387711DF5664A005DC4DA /* Debug */,
+				ACD387721DF5664A005DC4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD387731DF5664A005DC4DA /* Build configuration list for PBXNativeTarget "SwipNavHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD387741DF5664A005DC4DA /* Debug */,
+				ACD387751DF5664A005DC4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD387761DF5664A005DC4DA /* Build configuration list for PBXNativeTarget "SwipNavHideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD387771DF5664A005DC4DA /* Debug */,
+				ACD387781DF5664A005DC4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACD387791DF5664A005DC4DA /* Build configuration list for PBXNativeTarget "SwipNavHideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD3877A1DF5664A005DC4DA /* Debug */,
+				ACD3877B1DF5664A005DC4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACD3873E1DF5664A005DC4DA /* Project object */;
+}
